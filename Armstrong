@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    int n;
+    int sum=0;
+    scanf("%d",&n);
+    int org=n;
+    while(n>0){
+      int dig=  n%10;
+      int cub=dig*dig*dig;
+      n=n/10;
+      sum=sum+cub;
+      
+    }
+    if(org==sum)
+    printf("Armstrong");
+    else
+     printf("Not Armstrong");
+    
+
+    return 0;
+}
