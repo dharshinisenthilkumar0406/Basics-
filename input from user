@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Input: ");
+    scanf("%d",&a);
+    printf("Output: %d",a);
+
+return 0;
+}
