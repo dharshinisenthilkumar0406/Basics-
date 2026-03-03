@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+    int a,b;
+    char op;
+    scanf("%d %d %c",&a,&b,&op);
+    if(op=='+'){
+       int sum =a+b;
+        printf("%d",sum);
+    }
+    else if(op=='-'){
+       int sub=a-b;
+        printf("%d",sub);
+    }
+    else if(op=='*'){
+       int mul=a*b;
+        printf("%d",mul);
+    }
+    else if(op=='/'){
+       int div=a/b;
+        printf("%d",div);
+    }
+    else{
+        printf("invalid ");
+    }
+    
+}
