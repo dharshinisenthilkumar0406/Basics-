@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("Input: ");
+    scanf("%d %d",&a,&b);
+    int sum=a+b;
+    int sub=a-b;
+    int mul=a*b;
+    printf("Output:\nSum = %d\n",sum);
+    printf("Difference = %d\n",sub);
+    printf("Product = %d",mul);
+   
+}
