@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int org=n;
+    int count =0,sum=0;
+    while(n>0){
+        int fact=1;
+        int digit=n%10;
+        for(int i=1;i<=digit;i++){
+       fact=fact*i;
+       
+        
+    }
+    sum=sum+fact;
+    n=n/10;
+    }
+   if(org==sum)
+   printf("Strong number");
+   else
+   printf("Not Strong");
+    return 0;
+}
