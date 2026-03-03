@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    printf("I am learning C\nDay 1\n");
+
+return 0;
+}
